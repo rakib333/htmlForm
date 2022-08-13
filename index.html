@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html form design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="form-container">
+        <h1>Complex form design</h1>
+        <div class="form-group">
+            <div class="form-input">
+                <label for="name">First Name</label><br>
+                <input type="text" placeholder="Md">
+            </div>
+            <div class="form-input">
+                <label for="name">Last Name</label><br>
+                <input type="text" placeholder="Rakib">
+            </div>
+
+        </div>
+        <div class="form-group">
+            <div class="form-input">
+                <label for="email">Email</label><br>
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="form-input">
+                <label for="phone">Phone</label><br>
+                <input type="number" placeholder="Phone">
+            </div>
+
+        </div>
+        <div class="form-group">
+            <div class="form-input">
+                <label for="country">Country</label><br>
+                <select name="country" id="place">
+                    <option value="a">Bangladesh</option>
+                    <option value="a">India</option>
+                    <option value="a">Nepal</option>
+                    <option value="a" selected>Bhutan</option>
+                </select>
+            </div>
+            <div class="form-input">
+                <label for="city">City</label><br>
+                <select name="city" id="place">
+                    <option value="city" selected>Dhaka</option>
+                    <option value="city">Tangail</option>
+                    <option value="city">Gaziput</option>
+                    <option value="city">Mumbai</option>
+                </select>
+            </div>
+
+        </div>
+
+        <div class="radio-input">
+            <label for="gendar" id="gendar">Gendar</label><br>
+            <div class="radio-option">
+                <input type="radio" name="gendar" value="male" checked><label for="male">Male</label>
+                <input type="radio" name="gendar" value="male"><label for="male">FeMale</label>
+                <input type="radio" name="gendar" value="male"><label for="male">Other</label>
+            </div>
+        </div>
+
+        <div class="short-bio">
+            <label for="bio">Tell me about yourself</label><br>
+            <textarea name="bio" id="bio" cols="60" rows="6"></textarea>
+        </div>
+
+        <div class="form-group">
+            <div class="form-input">
+                <label for="pass">Password</label><br>
+                <input type="password" placeholder="password">
+            </div>
+            <div class="form-input">
+                <label for="pass">Password</label><br>
+                <input type="password" placeholder="again">
+            </div>
+
+        </div>
+
+        <div class="check-box">
+            <input type="checkbox" name="check" id="box">
+            <label for="privacy" class="check">I accept the terms and conditions</label>
+        </div>
+
+        <div class="button">
+            <input type="submit" value="submit" class="sub">
+            <input type="reset" value="reset">
+        </div>
+    </div>
+</body>
+
+</html>
